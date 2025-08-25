@@ -15,7 +15,7 @@ import { Badge } from "@/components/ui/badge";
 // TODO: 아래 GOOGLE_FORM_URL을 실제 구글 폼 '응답 링크'로 바꾸세요.
 // (선호하면 ?usp=pp_url&entry.123456= 값을 프리필로 추가)
 const GOOGLE_FORM_URL =
-  "https://docs.google.com/forms/d/1AZxfhvd3wUiTqct-GqCgWCI6Z472Az7d0yY3Mwd-SS0/edit";
+  "https://docs.google.com/forms/d/e/1FAIpQLSc_N5m7ebhaXxPGkN38L54HSMuaGbarEpu3rcpv1y3Iik57wg/viewform?usp=dialog";
 
 export default function Home() {
   const [formUrl, setFormUrl] = useState("");
@@ -117,7 +117,7 @@ export default function Home() {
                   <div>
                     <h3 className="text-lg font-semibold mb-2">슬롯 선택</h3>
                     <p className="text-[#a7b0bf] text-sm">
-                      오늘/내일 중 11:30 · 12:00에서 고르세요.
+                      오늘/내일 중 11:30 · 12:00에서 고르세요.(일정 추후 공지)
                     </p>
                   </div>
                 </div>
